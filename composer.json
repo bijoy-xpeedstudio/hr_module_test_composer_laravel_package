@@ -15,6 +15,7 @@
         "laravel/tinker": "^2.8",
         "mongodb/laravel-mongodb": "^4.0",
         "spatie/laravel-medialibrary": "^10.13",
+        "yosuite/synthetic-filter": "^1.0",
         "yosuite/synthetic-revisions": "^1.0"
     },
     "require-dev": {
@@ -37,7 +38,8 @@
         "psr-4": {
             "Tests\\": "tests/",
             "SyntheticRevisions\\": "synthetic-revisions/src",
-            "SyntheticComments\\": "synthetic-comments/src"
+            "SyntheticComments\\": "synthetic-comments/src",
+            "SyntheticFilter\\": "synthetic-filter/src"
         }
     },
     "repositories": [
@@ -48,6 +50,10 @@
         {
             "type": "path",
             "url": "synthetic-comments"
+        },
+        {
+            "type": "path",
+            "url": "synthetic-filter"
         }
     ],
     "scripts": {

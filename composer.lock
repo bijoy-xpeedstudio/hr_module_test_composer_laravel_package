@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25a0edde0cc1375b6f045f6b399a0c59",
+    "content-hash": "0b7a4e98b415b6618ba0df7c7d4790e4",
     "packages": [
         {
             "name": "brick/math",
@@ -6529,6 +6529,41 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yosuite/synthetic-filter",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "synthetic-filter",
+                "reference": "defaae644e40be0af38528cc71b205ad89ff4ac2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SyntheticFilter\\SyntheticFilterProvider"
+                    ],
+                    "config": "config/synthetic-filter.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SyntheticFilter\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "XpeedStudio"
+                }
+            ],
+            "description": "synthetic-filter is a Laravel package designed to streamline the creation of comment and reply systems within your web applications. This innovative package simplifies the process by automatically generating tables based on your model names, eliminating the need for manual table creation. With a focus on customization, synthetic-comments empowers developers to tailor their comment systems to match their application's unique requirements. It offers a user-friendly and simple steps for seamless integration, saving time, ensuring consistency, and promoting scalability. Make your Laravel projects more engaging with synthetic-comments and experience the convenience of effortless, model-based comment and reply systems",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "yosuite/synthetic-revisions",
